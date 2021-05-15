@@ -1,0 +1,357 @@
+                * {
+                    font-family: 'Rubik', sans-serif;
+                    margin: 0;
+                    box-sizing: border-box;
+                    padding: 0%;
+                    text-transform: capitalize;
+                }
+                
+                header {
+                    width: 100%;
+                    height: 100vh;
+                    text-transform: capitalize;
+                    box-sizing: border-box;
+                }
+                
+                .logo {
+                    /* background-color: rgb(27, 212, 120); */
+                }
+                
+                .navbar h2 {
+                    color: brown;
+                }
+                
+                .navbar a {
+                    color: brown;
+                    font-size: 30px;
+                }
+                
+                nav {
+                    display: flex;
+                    height: 10vh;
+                    justify-content: space-around;
+                    align-items: center;
+                    position: relative;
+                }
+                
+                .navbar {
+                    background-color: #d8d8d8;
+                    display: flex;
+                    text-transform: uppercase;
+                }
+                
+                .menu {
+                    /* background-color: yellow; */
+                    width: 50%;
+                    padding-left: 6cm;
+                }
+                
+                .navbar ul {
+                    /* background-color: chartreuse; */
+                    display: flex;
+                    width: 80%;
+                    list-style: none;
+                    /* justify-content: space-between; */
+                    align-items: center;
+                }
+                
+                .donatebutton:hover {
+                    background-color: #3b240b;
+                }
+                
+                .navbar ul {
+                    word-spacing: 4px;
+                    justify-content: space-around;
+                    text-decoration: none;
+                }
+                
+                .menu ul li:hover {
+                    /* border-bottom: black; */
+                    background-color: #daa520;
+                }
+                
+                .center {
+                    padding-top: 9vh;
+                    background-color: #3b240b;
+                    height: 70vh;
+                    padding-left: 20vh;
+                    padding-right: 30vh;
+                    display: flex;
+                    color: whitesmoke;
+                    box-sizing: border-box;
+                }
+                
+                .bottom {
+                    justify-content: space-around;
+                    display: flex;
+                    align-items: center;
+                    padding: 20px;
+                    background-color: #d8d8d8;
+                    text-transform: capitalize;
+                    height: 40vh;
+                }
+                
+                .image {
+                    padding-left: 350px;
+                    padding-top: 70px;
+                }
+                
+                .first a {
+                    font-size: 40px;
+                    /* color: #d8d8d8; */
+                    padding-left: 50px;
+                    color: blue;
+                    height: 2cm;
+                    width: 2cm;
+                }
+                
+                .second a {
+                    font-size: 40px;
+                    padding-left: 50px;
+                    color: green;
+                }
+                
+                .third a {
+                    font-size: 40px;
+                    padding-left: 50px;
+                    color: red;
+                }
+                
+                .fourth a {
+                    font-size: 40px;
+                    padding-left: 50px;
+                    color: darkorange;
+                }
+                
+                .first h1 {
+                    color: #8b4513;
+                }
+                
+                .second h1 {
+                    color: #8b4513;
+                }
+                
+                .third h1 {
+                    color: #8b4513;
+                }
+                
+                .fourth h1 {
+                    color: #8b4513;
+                }
+                
+                .nextpage {
+                    background-color: whitesmoke;
+                }
+                
+                .nextpage {
+                    padding-top: 10vh;
+                    padding-left: 50px;
+                    padding-right: 50px;
+                    justify-content: space-around;
+                    display: flex;
+                    height: 80vh;
+                }
+                
+                .nextone {
+                    background-color: whitesmoke;
+                    margin-right: 2cm;
+                    box-sizing: content-box;
+                }
+                
+                .nexttwo {
+                    margin-right: 2cm;
+                    background-color: whitesmoke;
+                }
+                
+                .last {
+                    height: 50vh;
+                    padding-top: 30px;
+                    padding: 20px;
+                    display: flex;
+                    justify-content: space-around;
+                    background-color: #d8d8d8;
+                }
+                
+                .lasttwoone {
+                    background-color: white;
+                    border-color: thistle;
+                    width: 7cm;
+                    height: 1cm;
+                }
+                
+                .lasttwoone ul {
+                    padding-top: 4cm;
+                    font-size: 20px;
+                    word-spacing: 7px;
+                }
+                
+                .lasttwotwo {
+                    color: white border-color: brown;
+                    height: 1.5cm;
+                    margin-top: 0.3cm;
+                    margin-bottom: 0.3cm;
+                }
+                
+                .lastone {
+                    width: 30%;
+                    /* margin-right: 10cm; */
+                }
+                
+                .lastone h3 {
+                    padding-top: 0.5cm;
+                }
+                
+                .lasttwo h3 {
+                    padding-top: 0.5cm;
+                }
+                
+                .lastone p {
+                    padding-top: 1cm;
+                }
+                
+                .lasttwo {
+                    padding-right: 10cm;
+                }
+                
+                .lastthree {
+                    padding-right: 2cm;
+                }
+                
+                .last a {
+                    font-size: 40px;
+                    color: brown;
+                    border-radius: 100px;
+                    background-color: white;
+                }
+                
+                .leg {
+                    height: 10vh;
+                    color: white;
+                    background-color: black;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                }
+                
+                .faicon {
+                    border-radius: 50%;
+                }
+                
+                button {
+                    /* box-sizing: border-box;*/
+                    height: 4vh;
+                    width: 4cm;
+                    color: beige;
+                    background-color: #3b240b;
+                }
+                
+                .rightbutton {
+                    color: cornsilk;
+                    width: 5cm;
+                    height: 4cm;
+                    justify-content: space-around;
+                }
+                
+                .rightbutton a {
+                    font-size: 50px;
+                }
+                
+                .flask {
+                    color: cornsilk;
+                    padding-right: 3cm;
+                }
+                
+                ul {
+                    list-style: none;
+                    align-items: center;
+                }
+                
+                .umbrella {
+                    color: cornsilk;
+                    padding-right: 3cm;
+                }
+                
+                .qrcode {
+                    color: cornsilk;
+                    padding-right: 3cm;
+                    height: 1cm;
+                    width: 1cm;
+                }
+                
+                .topright {
+                    background-color: #8b4513;
+                    padding-bottom: 10vh;
+                }
+                
+                .first {
+                    padding-right: 2cm;
+                }
+                
+                .second {
+                    padding-right: 2cm;
+                }
+                
+                .third {
+                    padding-right: 2cm;
+                }
+                
+                .fourth {
+                    padding-right: 2cm;
+                }
+                
+                .topright {
+                    padding-left: 1cm;
+                    padding-top: 0.5cm;
+                    padding-right: 1cm;
+                    margin-bottom: 0.8cm;
+                    margin-left: 3cm;
+                }
+                
+                .topbuttonone {
+                    padding-right: 3cm;
+                    height: 1cm;
+                    background-color: #daa520;
+                    ;
+                    margin-top: 0.5cm;
+                    color: #9b948f;
+                }
+                
+                .topbuttontwo {
+                    padding-right: 3cm;
+                    background-color: #daa520;
+                    height: 1cm;
+                    /* color: #9b945f; */
+                    margin-top: 0.5cm;
+                }
+                
+                .donatebutton {
+                    background-color: brown;
+                    height: 1.3cm;
+                    color: cornsilk;
+                    margin-top: 0.5cm;
+                    width: 3cm;
+                    margin-left: 0.6cm;
+                }
+                
+                .topbuttonone a {
+                    color: brown;
+                }
+                
+                .readmore:hover {
+                    background-color: #daa520;
+                }
+                
+                .topbuttontwo a {
+                    color: brown;
+                }
+                
+                .phone {
+                    /* height: 2cm; */
+                    margin-top: 2cm;
+                    /* padding-top: 2cm; */
+                    /* background-color: blue; */
+                }
+                
+                .lasttwotwo:hover {
+                    background-color: #daa520;
+                }
